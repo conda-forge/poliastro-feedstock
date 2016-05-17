@@ -5,7 +5,7 @@ Home: https://poliastro.github.io/
 
 Package license: MIT
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Python package for Orbital Mechanics
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/poliastro-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/poliastro-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/poliastro-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/poliastro-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/poliastro-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/poliastro-feedstock/branch/master)
