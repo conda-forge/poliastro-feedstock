@@ -1,2 +1,3 @@
-cd $SRC_DIR
+pwd
+ls
 py.test -vv
