@@ -34,6 +34,9 @@ test:
     - poliastro.twobody
     - poliastro.iod
 
+  requires:
+    - pytest
+
 about:
   home: https://poliastro.github.io/
   license: MIT
