@@ -34,10 +34,6 @@ test:
     - poliastro.twobody
     - poliastro.iod
 
-  requires:
-    - pytest
-    - pytest-benchmark
-
 about:
   home: https://poliastro.github.io/
   license: MIT
