@@ -7,7 +7,7 @@ package:
 source:
   fn: v{{ version }}.tar.gz
   url: https://github.com/poliastro/poliastro/archive/v{{ version }}.tar.gz
-  md5: 601ea71b36999dffa04508cae93e519b
+  md5: e5836edee334e0842cc6b0c369ee33b2
 
 build:
   number: 0
