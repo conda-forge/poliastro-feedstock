@@ -14,9 +14,9 @@ Summary: Python package for Orbital Mechanics
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/poliastro-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/poliastro-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/poliastro-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/poliastro-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/poliastro-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/poliastro-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/feedstock-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/feedstock-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/feedstock-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/feedstock-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/feedstock-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/feedstock-feedstock/branch/master)
 
 Current release info
 ====================
