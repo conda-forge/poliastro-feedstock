@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: poliastro
@@ -7,7 +7,7 @@ package:
 source:
   fn: v{{ version }}.tar.gz
   url: https://github.com/poliastro/poliastro/archive/v{{ version }}.tar.gz
-  md5: 7b381c3ec0fdb1b60c5a50205741b51d
+  md5: e5836edee334e0842cc6b0c369ee33b2
 
 build:
   number: 0
@@ -20,19 +20,25 @@ requirements:
     - setuptools
 
   run:
-    - python
+    - python >=3.5
     - numpy >=1.9
     - scipy
-    - numba >=0.23
-    - astropy >=1.0
+    - numba >=0.25
+    - astropy >=2.0.1
     - jplephem
     - matplotlib
+    - pandas
+    - requests
+    - beautifulsoup4
 
 test:
   imports:
     - poliastro
+    - poliastro.constants
+    - poliastro.coordinates
     - poliastro.twobody
     - poliastro.iod
+    - poliastro.frames
 
   requires:
     - pytest
