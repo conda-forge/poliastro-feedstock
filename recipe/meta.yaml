@@ -10,7 +10,7 @@ source:
   md5: e5836edee334e0842cc6b0c369ee33b2
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
   skip: True  # [py2k]
 
