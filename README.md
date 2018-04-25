@@ -14,12 +14,15 @@ Summary: Python package for Orbital Mechanics
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/poliastro-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/poliastro-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/poliastro-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/poliastro-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/poliastro/badges/version.svg)](https://anaconda.org/conda-forge/poliastro)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/poliastro/badges/downloads.svg)](https://anaconda.org/conda-forge/poliastro)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-poliastro-green.svg)](https://anaconda.org/conda-forge/poliastro) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/poliastro.svg)](https://anaconda.org/conda-forge/poliastro) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/poliastro.svg)](https://anaconda.org/conda-forge/poliastro) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/poliastro.svg)](https://anaconda.org/conda-forge/poliastro) |
 
 Installing poliastro
 ====================
