@@ -15,7 +15,7 @@ Current build status
 ====================
 
 All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/feedstock-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/feedstock-feedstock)
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/poliastro-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/poliastro-feedstock)
 
 Current release info
 ====================
