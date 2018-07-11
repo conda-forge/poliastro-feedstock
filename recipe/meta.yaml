@@ -10,18 +10,18 @@ source:
   md5: 6d5e09188eed933990915cbd74ff741a
 
 build:
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
   noarch: python
 
 requirements:
-  build:
-    - python
+  host:
+    - python >=3.5
     - setuptools
     - pip
 
   run:
-    - python
+    - python >=3.5
     - numpy >=1.9
     - scipy
     - numba >=0.25
