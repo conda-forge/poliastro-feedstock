@@ -29,7 +29,7 @@ requirements:
     - jplephem
     - matplotlib
     - pandas
-    - plotly
+    - plotly >=3.0
     - requests
     - beautifulsoup4
 
