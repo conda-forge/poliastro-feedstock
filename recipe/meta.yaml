@@ -10,9 +10,8 @@ source:
   md5: 7ddd548ce6526dd84549a3e17ee0a507
 
 build:
-  number: 1
+  number: 2
   script: python -m pip install --no-deps --ignore-installed .
-  noarch: python
 
 requirements:
   host:
