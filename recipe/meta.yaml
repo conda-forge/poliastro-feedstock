@@ -1,4 +1,4 @@
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 package:
   name: poliastro
@@ -7,10 +7,10 @@ package:
 source:
   fn: v{{ version }}.tar.gz
   url: https://github.com/poliastro/poliastro/archive/v{{ version }}.tar.gz
-  md5: 7ddd548ce6526dd84549a3e17ee0a507
+  md5: 408f5e77ac1fe10011193d59688f8763
 
 build:
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
   noarch: python
 
