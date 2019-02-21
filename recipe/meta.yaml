@@ -25,13 +25,16 @@ requirements:
     - numpy >=1.9
     - scipy >=1.0
     - numba >=0.39
-    - astropy >=3.0,<4
+    - astropy >=3.1,<4
     - jplephem
-    - matplotlib
+    - matplotlib >=2.0,!=3.0.1
     - pandas
-    - plotly >=3.0
+    - plotly >=3.6,<4
     - requests
     - beautifulsoup4
+    - astroquery >=0.3.8
+    - notebook
+    - ipywidgets >=7.0
 
 test:
   imports:
@@ -39,8 +42,10 @@ test:
     - poliastro.constants
     - poliastro.coordinates
     - poliastro.twobody
+    - poliastro.threebody
     - poliastro.iod
     - poliastro.frames
+    - poliastro.plotting
 
   requires:
     - pytest
