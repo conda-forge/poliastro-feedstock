@@ -10,7 +10,7 @@ source:
   md5: 9b1c416a28ace5633ffd54a8d0aaaf09
 
 build:
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
   noarch: python
 
@@ -27,7 +27,7 @@ requirements:
     - numba >=0.39
     - astropy >=3.2,<4
     - jplephem
-    - matplotlib >=2.0,!=3.0.1
+    - matplotlib-base >=2.0,!=3.0.1
     - pandas
     - plotly >=4.0,<5
     - requests
