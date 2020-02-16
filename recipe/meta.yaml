@@ -10,7 +10,7 @@ source:
   md5: 55c33b14f39c7e903c516a533f53a430
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
