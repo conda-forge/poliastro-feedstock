@@ -1,4 +1,4 @@
-{% set version = "0.13.1" %}
+{% set version = "0.14.0" %}
 
 package:
   name: poliastro
@@ -7,10 +7,10 @@ package:
 source:
   fn: v{{ version }}.tar.gz
   url: https://github.com/poliastro/poliastro/archive/v{{ version }}.tar.gz
-  md5: 55c33b14f39c7e903c516a533f53a430
+  md5: c08cdb0acb0176fb10638b7c02dd62a2
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
@@ -51,7 +51,7 @@ about:
   home: https://poliastro.github.io/
   license: MIT
   license_file: COPYING
-  summary: "Python package for Orbital Mechanics"
+  summary: Python package for Orbital Mechanics
 
 extra:
   recipe-maintainers:
