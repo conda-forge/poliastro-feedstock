@@ -16,15 +16,15 @@ build:
 
 requirements:
   host:
-    - python >=3.6,<3.9
+    - python >=3.6
     - pip
     - flit
 
   run:
-    - python >=3.6,<3.9
+    - python >=3.6
     - numpy >=1.10
     - scipy >=1.4
-    - numba >=0.46,<0.49
+    - numba >=0.46
     - astropy >=3.2,<5
     - jplephem
     - matplotlib-base >=2.0,!=3.0.1
