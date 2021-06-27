@@ -1,4 +1,4 @@
-{% set version = "0.15.0" %}
+{% set version = "0.15.2" %}
 
 package:
   name: poliastro
@@ -7,7 +7,7 @@ package:
 source:
   fn: v{{ version }}.tar.gz
   url: https://github.com/poliastro/poliastro/archive/v{{ version }}.tar.gz
-  md5: 44e494ba6abc405e4d79415535d6a1d6
+  md5: 70a049098b664bcbe05ed5ee798c14d7
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
     - jplephem
     - matplotlib-base >=2.0,!=3.0.1
     - pandas
-    - plotly >=4.0,<5
+    - plotly >=4.0,<6
     - astroquery >=0.3.9
     - notebook
     - cached-property
