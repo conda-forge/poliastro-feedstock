@@ -10,7 +10,7 @@ source:
   md5: 70a049098b664bcbe05ed5ee798c14d7
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
@@ -48,7 +48,7 @@ about:
   home: https://poliastro.github.io/
   license: MIT
   license_file: COPYING
-  summary: Python package for Orbital Mechanics
+  summary: Python package for Orbital Mechanics and Astrodynamics
 
 extra:
   recipe-maintainers:
