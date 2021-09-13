@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/poliastro-feedstock/blob/master/LICENSE.txt)
 
-Summary: Python package for Orbital Mechanics
+Summary: Python package for Orbital Mechanics and Astrodynamics
 
 Current build status
 ====================
