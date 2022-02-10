@@ -1,4 +1,4 @@
-{% set version = "0.16.0" %}
+{% set version = "0.16.1" %}
 
 package:
   name: poliastro
@@ -7,7 +7,7 @@ package:
 source:
   fn: v{{ version }}.tar.gz
   url: https://github.com/poliastro/poliastro/archive/v{{ version }}.tar.gz
-  md5: 2e8fb841e5931f190c3adc0afeb942b9
+  md5: 42fd1d1ab632ad03cb23c7239bc5127d
 
 build:
   number: 0
