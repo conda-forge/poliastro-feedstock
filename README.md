@@ -1,7 +1,7 @@
 About poliastro
 ===============
 
-Home: https://poliastro.github.io/
+Home: https://www.poliastro.space/
 
 Package license: MIT
 
