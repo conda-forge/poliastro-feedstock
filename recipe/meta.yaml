@@ -10,13 +10,13 @@ source:
   md5: d816d12f2542455edf164666f3f9d0ee
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
   host:
-    - python >=3.7,<3.10
+    - python >=3.7,<3.11
     - pip
     - flit
 
@@ -25,7 +25,7 @@ requirements:
     - numpy >=1.10
     - scipy >=1.4
     - numba >=0.46
-    - astropy >=3.2,<5
+    - astropy >=3.2,<6
     - jplephem
     - matplotlib-base >=2.0,!=3.0.1
     - plotly >=4.0,<6
@@ -45,7 +45,7 @@ test:
     - poliastro.plotting
 
 about:
-  home: https://poliastro.github.io/
+  home: https://www.poliastro.space/
   license: MIT
   license_file: COPYING
   summary: Python package for Orbital Mechanics and Astrodynamics
