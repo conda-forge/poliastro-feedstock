@@ -10,18 +10,18 @@ source:
   md5: ebea4f9b1b337304eb8d3c17dcd16c9c
 
 build:
-  number: 2
+  number: 3
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
   host:
-    - python >=3.8,<3.11
+    - python {{ python_min }}
     - pip
     - flit
 
   run:
-    - python >=3.8,<3.11
+    - python >={{ python_min }},<3.11
     - numpy >=1.10
     - scipy >=1.4
     - numba >=0.53.0
@@ -35,6 +35,8 @@ requirements:
     - czml3
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - poliastro
     - poliastro.constants
